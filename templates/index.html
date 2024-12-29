@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <link rel="icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Import Google Icon Font-->
+	<link href=
+"https://fonts.googleapis.com/icon?family=Material+Icons"
+		rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../static/stylesheets/index.css">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+	<!-- Let browser know website is
+		optimized for mobile -->
+
+</head>
+
+<body>
+	<nav class="sky-blue">
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo
+				right"> <i class="material-icons medium">games</i>
+			</a>
+
+			<ul id="nav-mobile" class=
+				"left hide-on-med-and-down">
+
+      <li id="sort-global"><a href="#">Global Sales</a></li>
+      <li id="sort-na"><a href="#">North American Sales</a></li>
+      <li id="sort-eu"><a href="#">European Sales</a></li>
+      <li id="sort-jp"><a href="#">Japan Sales</a></li>
+      <li id="sort-rating"><a href="#">Ratings</a></li>
+			</ul>
+		</div>
+	</nav>
+    <div class="row"></div>
+            <div class="row">
+                <div class="col s12" style="text-align: center;">
+                                <div class="switch">
+                <label>
+                    Descending
+                    <input type="checkbox" />
+                    <span class="lever"></span>
+                    Ascending
+                </label>
+            </div>
+                </div>
+            </div>
+    <div class="row"></div>
+    <div class="row"></div>
+
+    <div id="chart-container">
+        <!-- Chart will be placed here -->
+        <svg id="chart"></svg>
+    </div>
+
+
+	<!-- Compiled and minified JavaScript -->
+	<script type="text/javascript" src=
+		"https://code.jquery.com/jquery-2.1.1.min.js">
+	</script>
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js">
+	</script>
+<script src="../static/js/index.js"></script>
+</body>
+</html>
